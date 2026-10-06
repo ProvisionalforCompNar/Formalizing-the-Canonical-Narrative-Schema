@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33/"
+     xml:base="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33">
+        <rdfs:comment>Semiotics of passion ontology</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#assignsPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#assignsPosition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#emergesFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#emergesFrom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disposition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modalDevice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#giveRiseToDisposition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#giveRiseToDisposition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disposition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasAspectualCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasAspectualCategory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualCategory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasFinalState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasFinalState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#state"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasInitialState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasInitialState">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#state"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasJunctionType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasJunctionType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#state"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#junctionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasObject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasPhase">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasPhoricTensivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasPhoricTensivity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#forefeelingState"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricTensivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasPhoricorientation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasPhoricorientation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#valence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricOrientation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasProtoSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasProtoSubject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#forefeelingState"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoSubject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasSubject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasValence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasValence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoObject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#valence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#hasValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#object"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#value"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#involvesDisposition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#involvesDisposition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionalConfiguration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disposition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#involvesPathemicRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#involvesPathemicRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionalConfiguration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#pathemicRole"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#isAspectualizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#isAspectualizedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disposition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#lexicalizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#lexicalizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionLexeme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionalConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#orientsToward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#orientsToward">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoSubject"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#selectionsDisposition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#selectionsDisposition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#culturalPassionalTaxonomy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionalConfiguration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#undergoesCategorization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#undergoesCategorization">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#discretization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#categorization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#undergoesDiscretization -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#undergoesDiscretization">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#forefeelingState"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#discretization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#anti-subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#anti-subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualCategory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#beingAbleToDo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#beingAbleToDo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#canonicalNarrativeSchema"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#categorization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#categorization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#competence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#competence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#culturalPassionalTaxonomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#culturalPassionalTaxonomy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#discretization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#discretization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disposition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#durativity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#durativity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#forefeelingState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#forefeelingState"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#havingToDo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#havingToDo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#helper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#helper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#iterativity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#iterativity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#junctionType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#junctionType">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#conjunction"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disjunction"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#knowingHowToDo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#knowingHowToDo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#manipulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#manipulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modalDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modalDevice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#opponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#opponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionLexeme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionLexeme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionalConfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#passionalConfiguration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#pathemicRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#pathemicRole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#performance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#performance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricOrientation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricOrientation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricTensivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricTensivity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#preSemioticLayer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#preSemioticLayer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoActant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoActant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoActant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoSubject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoSubject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#protoActant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#receiver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#receiver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#sanction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#sanction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#sender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#sender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#state"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#actantPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#terminativity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#terminativity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#aspectualCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#valence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#valence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#value"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#wantingToDo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#wantingToDo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#modality"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#attraction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#attraction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricOrientation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#conjunction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#conjunction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#junctionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disjunction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#disjunction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#junctionType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#repulsion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#repulsion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nicol_c1gee9c/ontologies/2026/1/untitled-ontology-33#phoricOrientation"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
