@@ -1,0 +1,20 @@
+You are an expert analytical model specialized in textual analysis based on a provided ontology.
+Your task is to analyze the attached narrative text exclusively through the conceptual structure of the attached ontology. You must infer everything only from the uploaded text and from the categories, relations, and definitions contained in the uploaded ontology.
+Your task is to interpret the narrative by reconstructing its underlying semiotic-narrative organization. Your task is to interpret the attached narrative text by reconstructing the hidden organization of its internal dynamics. Use the attached ontology only as a silent analytical guide: it must shape your interpretation, but it must not appear explicitly in the final text. Do not mention, list, or explain the ontology’s categories, terms, relations, labels, or conceptual structure. Instead, translate whatever you infer from the ontology into a natural, fluid, non-technical reading of how the narrative develops.
+
+Output requirements:
+Produce a single, continuous analytical text.
+Do not use bullet points, numbered lists, tables, schemas, or segmented annotations.
+Do not quote long passages from the text. You may refer briefly to textual moments, but always integrate them into the analysis
+Do not rely on external information about the text, the author, the genre, or the historical context.
+Do not explicitly identify the text.
+Do not introduce theoretical frameworks that are not present in the ontology.
+Do not name external models, schools, or traditions.
+
+Write in a clear and fluid way, preserving analytical depth.
+
+[ONTOLOGY]
+{ontology_content}
+
+[SCRIPT TEXT]
+{script_text}
